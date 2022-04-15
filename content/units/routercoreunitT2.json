@@ -1,0 +1,43 @@
+{
+"type": "flying",
+"name": "Router T2",
+"description": "The basic building unit of Core: Distributor",
+"controller": "BuilderAI",
+"flying": true,
+"mineSpeed": 4,
+"mineTier": 2,
+"buildSpeed": 0.80,
+"drag": 0.08,
+"speed": 2.1,
+"rotateSpeed": 14,
+"itemCapacity": 35,
+"health": 315,
+"armor": 4,
+"engineSize": 2.1,
+"hitSize": 12,
+"commandLimit": 4,
+"weapons": [{
+"name": "routerT2-weapon",
+"reload": 10,
+"recoil": 0,
+"shots": 2,
+"inaccuracy": 15,
+"mirror": false,
+"top": false,
+"y": 7,
+"x": 0,
+"bullet": {
+  "type": "basicBulletType",
+  "width": 4,
+  "height": 10,
+  "sprite": "hfi-neobul",
+  "backColor": 333333,
+  "frontColor": 444444,
+  "speed": 3,
+  "damage": 15,
+  "lifetime": 40,
+  "buildingDamageMultiplier": 0.01
+}
+}],
+"research": "Routercoret2"
+}

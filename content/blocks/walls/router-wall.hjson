@@ -1,0 +1,42 @@
+type: PowerTurret
+category: defense
+research: copper-wall
+playerControllable: false
+
+health: 350
+reloadTime: 45
+recoilAmount: 0
+rotateSpeed: 0
+shootCone: 360
+inaccuracy: 360
+range: 35
+shots: 16
+powerUse: 3
+
+group: walls
+
+shootEffect: {
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 35
+lifetime: 15
+colorFrom: bfbfbf
+colorTo: bfbfbf
+}
+
+shootType: {
+sprite: hfi-neobul
+speed: 2
+lifetime: 25
+damage: 2
+pierce: true
+homingRange: 20
+homingPower: 0.35
+}
+
+
+requirements: [
+routerstone/15
+silicon/5
+]

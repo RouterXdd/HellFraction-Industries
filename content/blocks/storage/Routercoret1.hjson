@@ -1,0 +1,16 @@
+name: "Core: Router"
+description: "[gray]Routers[white]
+The basic core of routers.Have small item capaty and health"
+type: CoreBlock
+health: 2500
+size: 3
+itemCapacity: 3000
+unitCapModifier: 10
+unitType: routercoreunitT1
+requirements: [
+ copper/1200
+ lead/1750
+ silicon/650
+]
+category: effect
+research: core-shard

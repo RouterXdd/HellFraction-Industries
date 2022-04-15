@@ -1,0 +1,29 @@
+type: itemTurret
+name: "Multishot"
+description: "[gray]Routers
+[white]Shoots the multiple neons bullets"
+health: 1450
+shots: 3
+size: 3
+reloadTime: 30
+range: 210
+ammoTypes:{
+    silicon:{
+        speed: 3
+        lifetime: 70
+        damage: 30
+        width: 6
+        height: 12
+        sprite: hfi-neobul
+        "backColor": 009999
+        "frontColor": 00ffff
+    }
+}
+category: turret
+research: routerminigun
+requirements: [
+    copper/60
+    lead/95
+    silicon/135
+    titanium/75
+]

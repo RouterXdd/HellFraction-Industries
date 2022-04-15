@@ -1,0 +1,36 @@
+{
+"type": "flying",
+"name": "Newborn",
+"description": "The ship from other dimension. Have a difference style, not Mindustry's units",
+"flying": true,
+"buildSpeed": 0.45,
+"drag": 0.05,
+"speed": 2.6,
+"rotateSpeed": 10,
+"itemCapacity": 0,
+"health": 1000,
+"engineSize": 0,
+"hitSize": 16,
+"commandLimit": 0,
+"weapons": [{
+"name": "newborn-weapon",
+"reload": 30,
+"recoil": 0,
+"mirror": false,
+"top": false,
+"y": 0,
+"x": 0,
+"bullet": {
+"type": "basicBulletType",
+"width": 2,
+"height": 2,
+"backColor": "47ffff",
+"frontColor": "47ffff",
+"speed": 6,
+"damage": 10,
+"lifetime": 60
+}
+}
+],
+"research": "core-shard"
+}

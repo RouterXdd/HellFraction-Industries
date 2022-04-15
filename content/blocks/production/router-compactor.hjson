@@ -1,0 +1,25 @@
+type: GenericCrafter
+health: 125
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: false
+craftTime: 45
+craftEffect: producesmoke
+update: true
+consumes: {
+	power: 0.25
+	items: {
+		items: [
+			copper/3
+		]
+	}
+}
+outputItem: routerstone/1
+requirements: [
+	copper/75
+	lead/50
+	silicon/35
+]
+category: crafting
+research: graphite-press

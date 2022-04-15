@@ -1,0 +1,31 @@
+type: itemTurret
+name: "Router houlast"
+description: "[gray]Routers[white]
+Shoots the homing router to enemies"
+targetAir: true
+targetGround: true
+collidesGround: true
+health: 1350
+shots: 1
+size: 3
+reloadTime: 65
+inaccuracy: 0
+range: 340
+ammoTypes:{
+copper: {
+sprite: router
+speed: 4
+lifetime: 100
+damage: 15
+homingRange: 40
+homingPower: 0.5
+}
+}
+category: turret
+research: routerlauncher
+requirements: [
+    copper/235
+    graphite/130
+    silicon/85
+    routerstone/65
+]

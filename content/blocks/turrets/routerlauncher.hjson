@@ -1,0 +1,33 @@
+type: itemTurret
+name: "Router Launcher"
+description: "[gray]Routers[white]
+Shoots the artiller router to enemies"
+targetAir: false
+targetGround: true
+collidesGround: true
+health: 850
+shots: 1
+size: 2
+reloadTime: 100
+inaccuracy: 0
+range: 220
+ammoTypes:{
+copper: {
+type: ArtilleryBulletType
+sprite: router
+trailMult: 1.5
+speed: 4
+lifetime: 55
+splashDamageRadius: 16
+splashDamage: 30
+width: 8
+height: 8
+}
+}
+category: turret
+research: Routercoret1
+requirements: [
+    copper/155
+    graphite/75
+    silicon/65
+]

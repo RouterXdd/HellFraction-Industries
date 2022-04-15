@@ -1,0 +1,8 @@
+name: "Router Stone"
+color: "#777777"
+research:{
+parent: copper
+requirements:[
+    routerstone/1
+]
+}

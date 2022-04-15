@@ -1,0 +1,31 @@
+type: itemTurret
+name: "Router Minigun"
+description: "[gray]Routers
+[white]Shoots the orders neons bullets"
+health: 850
+shots: 3
+size: 2
+burstSpacing: 4
+spread: 0
+reloadTime: 40
+range: 170
+ammoTypes:{
+    silicon:{
+        speed: 3
+        lifetime: 56
+        damage: 5
+        knockback: 2
+        width: 5
+        height: 11
+        sprite: hfi-neobul
+        "backColor": 009999
+        "frontColor": 00ffff
+    }
+}
+category: turret
+research: Routercoret1
+requirements: [
+    lead/95
+    silicon/135
+    graphite/75
+]

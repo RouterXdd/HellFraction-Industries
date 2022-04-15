@@ -1,0 +1,30 @@
+type: PowerTurret
+name: Photon Gun
+size: 3
+health: 1560
+reloadTime: 120
+recoilAmount: 2
+shootSound: plasmaboom
+range: 160
+shots: 5
+powerUse: 4.6
+shootType:{
+    type: ShrapnelBulletType
+length: 160
+width: 20
+serrations: 0
+damage: 10
+hitSound: shootBig
+status: blinded
+statusDuration: 50
+fromColor: ffffff
+toColor: b3b300
+}
+category: turret
+research: fuse
+requirements:[
+lead/125
+silicon/75
+titanium/95
+thorium/40
+]

@@ -1,0 +1,58 @@
+{
+    "type": "flying",
+    "name": "Shellcore",
+    "description": "The upgraded newborn",
+    "controller": "BuilderAI",
+    "flying": true,
+    "buildSpeed": 0.45,
+    "drag": 0.05,
+    "speed": 2.4,
+    "rotateSpeed": 10,
+    "itemCapacity": 0,
+    "health": 3000,
+    "engineSize": 0,
+    "hitSize": 16,
+    "commandLimit": 0,
+    "weapons": [{
+    "name": "newborn-weapon",
+    "reload": 30,
+    "recoil": 0,
+    "mirror": false,
+    "top": false,
+    "y": 0,
+    "x": 0,
+    "bullet": {
+    "type": "basicBulletType",
+    "width": 2,
+    "height": 2,
+    "backColor": "47ffff",
+    "frontColor": "47ffff",
+    "speed": 6,
+    "damage": 10,
+    "lifetime": 60
+    }
+},
+    {
+    "name": "missile-weap",
+    "reload": 500,
+    "recoil": 1,
+    "mirror": false,
+    "top": true,
+    "y": -5.5,
+    "x": 0,
+    "bullet":{
+        "type": "basicBulletType",
+        "width": 5,
+        "height": 5,
+        "backColor": "ffffff",
+        "frontColor": "ffffff",
+        "homingRange": 50,
+        "homingPower": 2,
+        "speed": 4,
+        "damage": 1500,
+        "lifetime": 180
+    }
+    }
+    ],
+    "research": "newborn"
+    }

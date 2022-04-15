@@ -1,0 +1,14 @@
+displayName:"HFI"
+name:"hfi"
+description:"A mod add the 5 fracties: 
+[cyan]Elementals 
+[gray]Routers 
+[lime]Shapes 
+[red]Eyes 
+[green]Cores[white]
+This mod I make to rest from Xsoverd-Remake
+Этот мод я сделал чтобы отдохнуть от Xsoverd-Remake"
+author:"Router Xdd"
+version:"1.0"
+dependencies:[]
+minGameVersion:135

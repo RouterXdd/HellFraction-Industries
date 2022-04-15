@@ -1,0 +1,43 @@
+type: PowerTurret
+category: defense
+research: router-wall
+playerControllable: false
+
+health: 1400
+reloadTime: 65
+recoilAmount: 0
+rotateSpeed: 0
+shootCone: 360
+inaccuracy: 360
+size: 2
+range: 70
+shots: 32
+powerUse: 3
+
+group: walls
+
+shootEffect: {
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 70
+lifetime: 15
+colorFrom: bfbfbf
+colorTo: bfbfbf
+}
+
+shootType: {
+sprite: hfi-neobul
+speed: 2
+lifetime: 55
+damage: 6
+pierce: true
+homingRange: 20
+homingPower: 0.35
+}
+
+
+requirements: [
+routerstone/60
+silicon/20
+]

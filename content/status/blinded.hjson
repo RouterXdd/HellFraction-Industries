@@ -1,0 +1,15 @@
+name: blinded
+speedMultiplier: 0
+reloadMultiplier: 0
+effect:{
+    type: ParticleEffect
+    sizeFrom: 3
+    sizeTo: 0
+    lifetime: 25
+    particles: 2
+    cone: 360
+    length: 2
+    colorFrom: c3c300
+    colorTo: d4d400
+}
+color: c3c300
